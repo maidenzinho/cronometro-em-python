@@ -3,9 +3,9 @@ import os
 
 crono = int(input("Digite o tempo(Em segundos): "))
 
-while crono >= 0:
+while crono > 0:
     crono -= 1
-    print(crono)
+    print(f"Tempo: {crono}")
     time.sleep(1)
     os.system('clear') # se estiver utilizando linux
     os.system('cls') # se estiver utilizando o windows
